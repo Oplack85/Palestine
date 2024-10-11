@@ -1,0 +1,30 @@
+services:
+  - type: web
+    plan: free
+    name: Scorpion 
+    env: python
+    buildCommand: pip install -U -r requirements.txt
+    startCommand: gunicorn ser:app & bash start
+    region: Singapore #frankfurt #Singapore
+    envVars:
+      - key: APP_ID 
+        value: 9514755
+      - key: API_HASH 
+        value: 40e7041d06ea7b6ee1cf39b3188b3452
+      - key: BOT_TOKEN
+        value: 8036736951:AAEWg3Vs9kNensnLq4D1G2meXHNTQ8d_7ZE
+      - key: STRING_SESSION
+        value: 1ApWapzMBu40VV4iOwhOt2D_LbGyb2W6eyhHtCcDE3bJrrP-SJOPxGlO5CqPlj6GRCzpcU8WORiYUJw11ctgVIxZTpDmUEEV_GdkKi7o0MEEExNLFGbqFwHLoNxeWMW5ro48LYAwZ9er00nvPlXxgqIeTY_wItGgcEE3EgHYgtP1_gCgcSxpv0Qf-qltqF17IBH2RoszrQ0QZnRwxOgNOalBrCZVhXAKPfjcKjX-FXXDMlAVyPJbFtmMSI32WQ2scYuO9CWSjGmF1QA9_PJ4kwZq9xWPGTiR8mjKrs2JjtC0d13-hdy7_f4GJpozQcAseAvCZkGDDV6Pi2kpdf2IavL-sc0-ecCg=
+      - key: BOT_USERNAME
+        value: Misck63bot
+      - key: SUPPORT
+        value: diigtisititit6342
+      - key: CHANNEL
+        value: diigtisititit6342
+      - key: START_IMG
+        value: https://graph.org/file/673bd8e51c4fef00c2848.jpg
+      - key: CMD_IMG
+        value: https://graph.org/file/673bd8e51c4fef00c2848.jpg
+      - key: OWNER_ID
+        value: 815010872
+  
