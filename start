@@ -1,1 +1,2 @@
+pip install tgcalls==3.0.0.dev6 --no-deps
 python3 -m JE313P
