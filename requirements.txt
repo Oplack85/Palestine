@@ -10,4 +10,5 @@ speedtest-cli
 Flask==2.3.2
 Flask-RESTful==0.3.10
 pytgcalls==2.1.0
+tgcalls==3.0.0.dev6
 gunicorn
